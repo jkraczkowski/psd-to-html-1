@@ -1,0 +1,411 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+* {
+    box-sizing: border-box; }
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 40px 0 0 0;
+    overflow-x: hidden;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    clear: both;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.navbar .navbar-nav {
+    margin-left: 40%;
+}
+.navbar .navbar-nav li a {
+    color: #D2D2D6;
+    float: right;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+.navbar .navbar-nav li a:hover{
+    color: #E84545;
+    transition: .4s ease-in-out;
+}
+.navbar .navbar-brand img {
+    height: 24px;
+}
+.line{
+    padding-bottom: 50px;
+    border-bottom: #474960 solid 1px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(https://zapodaj.net/images/e4ad6e747c081.jpg);
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-family: "Cardo", sans-serif;
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.jumbotron p {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.jumbotron .btn-warning {
+    height: 46px;
+    width: 200px;
+    font-family: "Raleway", sans-serif;
+    background-color: #e84545;
+    border-color: #e84545;
+    margin-top: 2%;
+    margin-left: -6%;
+}
+/*FEATURES*/
+.features{
+    text-align: center;
+}
+.fa-cloud-download, .fa-code, .fa-lightbulb-o, .fa-pencil, .fa-suitcase, .fa-television{
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: #e84545;
+}
+.describtion-main {
+    margin-bottom: 25px;
+    color: #2d3033;
+    font-weight: bold;
+    font-size: 14px;
+}
+.describtion-low{
+    color: #6c7279;
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+/*Gallery*/
+.gallery .pic1 {
+    background-image: url(https://zapodaj.net/images/d788ccd42d6a2.jpg); }
+.gallery .pic2 {
+    background-image: url(https://zapodaj.net/images/1a5c26ca08aca.jpg); }
+.gallery .pic3 {
+    background-image: url(https://zapodaj.net/images/70b6d0cd22c41.jpg); }
+.gallery .pic4 {
+    background-image: url(https://zapodaj.net/images/2a54a0c24e68e.jpg); }
+.gallery .pic5 {
+    background-image: url(https://zapodaj.net/images/626c61c22d426.jpg); }
+.gallery .pic6 {
+    background-image: url(https://zapodaj.net/images/7ef806b2f689c.jpg); }
+.gallery .pic7 {
+    background-image: url(https://zapodaj.net/images/23bac39f93da3.jpg); }
+.gallery .pic8 {
+    background-image: url(https://zapodaj.net/images/ad73b094eead9.jpg); }
+
+.gallery {
+    overflow-x: hidden;
+}
+.gallery .column {
+    height: 350px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+    padding: 0;
+}
+.gallery .layer {
+    position: absolute;
+    text-align: center;
+    color: transparent;
+}
+.gallery .layer h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.gallery .layer p {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.gallery .column:hover .layer {
+    background-color: #e84545;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease-in-out;
+    justify-content: center;
+    flex-direction: column;
+}
+.gallery .column:hover h3 {
+    color: #ffffff;
+}
+.gallery .column:hover p {
+    color: #ffffff;
+}
+/*team*/
+
+.users img{
+    height: 270px;
+}
+.border{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #c6cacc;
+    margin-bottom: 10px;
+    text-align:center;
+    display: inline-block;
+}
+.user h3{
+    font-size: 22px;
+}
+.users h5{
+    color: #e84545;
+    font-size: 13px;
+}
+.users p{
+    color: #6c7279;
+}
+.facebook, .twitter, .linked-in{
+    line-height: 40px;
+    font-size: 18px;
+    color: #c6cacc;
+}
+.facebook:hover{
+    color: white;
+    background-color: #3b5998;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.twitter:hover{
+    color: #1DA1F2;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.linked-in:hover{
+    color: #ffffff;
+    background-color: #0077B5;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+/*carousel with quote*/
+.picture-woman{
+    background-image: url(https://zapodaj.net/images/f132ee0c9f935.jpg);
+    height: 500px;
+    background-size: cover;
+
+}
+.quotes {
+    background-color: #53354a;
+    height: 500px; }
+.quotes .carousel-inner {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 300px;
+    position: relative;
+    width: 90%;
+}
+.quotes .carousel-inner .sentence h2 {
+    font-size: 36px;
+    color: white;
+    width: 50%;
+    font-family: "Cardo", sans-serif;
+    font-style: Italic;
+}
+.quotes .carousel-inner .sentence p {
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+}
+.carousel-indicators {
+    bottom: -100px;
+}
+.carousel-inner {
+    margin-bottom: 100px;
+}
+/*button area*/
+.heading h2{
+    margin-top: 100px;
+    font-size: 28px;
+    text-align: center;
+    color: #2d3033;
+}
+.heading p{
+    font-size: 13px;
+    color:#2d3033;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.heading .btn-warning{
+    width: 280px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #e84545;
+    display: block;
+    margin-bottom: 100px;
+}
+/*about section*/
+.about{
+    background-color: #3a3e64;
+    text-align: center;
+}
+.about .info{
+    margin-bottom: 105px;
+}
+.about h3{
+    margin-top: 70px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.about p{
+    color: #6a6c85;
+    font-size: 14px;
+}
+.border-two{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+    text-align:center;
+    display: inline-block;
+}
+.facebook-second, .twitter-second, .linked-in-second{
+    line-height: 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.facebook-second:hover{
+    color: white;
+    background-color: #3b5998;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.twitter-second:hover{
+    color: #1DA1F2;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.linked-in-second:hover{
+    color: #ffffff;
+    background-color: #0077B5;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+/*footer*/
+footer {
+    background-color: #313454;
+    text-align: center;
+    color: #5b5c6a;
+}
+@media(max-width: 767px) {
+    .navbar {
+        left: 0;
+    }
+
+    .navbar .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+        display:inline-block;
+
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: auto;
+    }
+
+    .jumbotron h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
+    .users img{
+        display: block;
+        margin: 0 auto;
+    }
+    .users {
+        text-align: center;
+    }
+    .quotes .carousel-inner .sentence h2 {
+        text-align: center;
+        font-size:22px;
+    }
+    .quotes .carousel-inner .sentence p{
+        text-align: center;
+    }
+}
+@media(min-width: 767px) and (max-width: 991px) {
+    .navbar {
+        left: 0;
+    }
+    .navbar .navbar-nav {
+        margin-left: 0;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: auto;
+    }
+    .jumbotron h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .jumbotron p {
+        font-size: 20px;
+    }
+    .users img{
+        display: block;
+        margin: 0 auto;
+    }
+    .users {
+        text-align: center;
+    }
+ }
+@media(min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        left: 0;
+    }
+
+    .navbar .navbar-nav {
+        margin-left: 0;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: auto;
+    }
+
+    .jumbotron h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
+
+}
+
